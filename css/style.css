@@ -48,7 +48,7 @@ form {
 }
 
 #about {
-  background: url(http://www.steamcity.leegannon.com/images/257j.jpg)center center no-repeat fixed;
+  background: url(https://s3-us-west-2.amazonaws.com/leein8bits/images/257J.jpg)center center no-repeat fixed;
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
@@ -59,7 +59,7 @@ form {
 }
 
 #work {
-  background: url(http://www.steamcity.leegannon.com/images/264j.jpg)center center no-repeat fixed;
+  background: url(https://s3-us-west-2.amazonaws.com/leein8bits/images/264J.jpg)center center no-repeat fixed;
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
@@ -70,7 +70,7 @@ form {
 }
 
 #follow {
-  background: url(http://www.steamcity.leegannon.com/images/289j.jpg)center center no-repeat fixed;
+  background: url(https://s3-us-west-2.amazonaws.com/leein8bits/images/289J.jpg)center center no-repeat fixed;
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
@@ -81,7 +81,7 @@ form {
 }
 
 #contact {
-  background: url(http://www.steamcity.leegannon.com/images/111j.jpg)center center no-repeat fixed;
+  background: url(https://s3-us-west-2.amazonaws.com/leein8bits/images/111J.jpg)center center no-repeat fixed;
   min-height: 100vh;
   max-height: 100%;
   padding: 60px;
