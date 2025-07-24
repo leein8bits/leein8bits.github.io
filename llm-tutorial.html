@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Tutorial - The Lee Gannon Experience</title>
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+  <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-lee">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Lee Gannon</a>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar-lee">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">LLM Tutorial</a></li>
+          <li><a href="http://stackoverflow.com/" target="_blank">Answer to life</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container-fluid" style="padding-top:60px;">
+      <div class="row">
+        <div class="words col-md-12">
+          <h2>Getting Started with Large Language Models</h2>
+          <p>This brief tutorial introduces the core ideas behind large language models (LLMs) and how to work with them.</p>
+          <p>LLMs generate text by predicting the next word in a sequence. They are trained on vast amounts of text and can be used for tasks like summarization, content generation and question answering.</p>
+          <p><strong>Basic steps for using an LLM:</strong></p>
+          <ul>
+            <li>Choose an API or open-source model that fits your needs.</li>
+            <li>Send a prompt that clearly describes the task you want the model to perform.</li>
+            <li>Review the output carefully and iterate on your prompt to improve results.</li>
+            <li>Remember that LLMs may produce inaccurate information, so human review is essential.</li>
+          </ul>
+          <p>Explore the documentation for your chosen model to learn about parameters like temperature and max tokens that control the style and length of the output.</p>
+          <h3>Using a Free API</h3>
+          <p>A convenient way to try LLMs is the Hugging Face Inference API, which has a free tier.</p>
+          <ul>
+            <li>Create a free account at <a href="https://huggingface.co" target="_blank">huggingface.co</a> and generate an API token.</li>
+            <li>Send a POST request to <code>https://api-inference.huggingface.co/models/&lt;model&gt;</code> with an <code>Authorization: Bearer &lt;your_token&gt;</code> header.</li>
+            <li>The response will contain the model output in JSON format for your input.</li>
+          </ul>
+          <p>This lets you experiment with many open models without running them locally. See Hugging Face documentation for usage limits.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
