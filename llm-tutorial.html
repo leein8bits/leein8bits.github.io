@@ -46,6 +46,15 @@
             <li>Remember that LLMs may produce inaccurate information, so human review is essential.</li>
           </ul>
           <p>Explore the documentation for your chosen model to learn about parameters like temperature and max tokens that control the style and length of the output.</p>
+          <h3>Using a Free API</h3>
+          <p>A convenient way to try LLMs is the Hugging Face Inference API, which has a free tier.</p>
+          <ul>
+            <li>Create a free account at <a href="https://huggingface.co" target="_blank">huggingface.co</a> and generate an API token.</li>
+            <li>Send a POST request to <code>https://api-inference.huggingface.co/models/&lt;model&gt;</code> with an <code>Authorization: Bearer &lt;your_token&gt;</code> header.</li>
+            <li>The response will contain the model output in JSON format for your input.</li>
+          </ul>
+          <p>This lets you experiment with many open models without running them locally. See Hugging Face documentation for usage limits.</p>
+
         </div>
       </div>
     </div>
